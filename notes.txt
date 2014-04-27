@@ -1,0 +1,32 @@
+The project structure.
+
+    The database scripts are stored in the db folder.
+    The java source code is stored in the src folder.
+    The images, js, META-INF, styles (css) are stored in the war folder.
+    The JSPs are stored in the jsp folder.
+    The third party jar files are stored in the lib folder.
+    The java class files will be stored in the WEB-INF\classes folder.
+
+	
+C:\work\FaxWebApplication>tree
+Folder PATH listing
+Volume serial number is 00740061 EC1C:ADB1
+C:.
++---db
++---src
+.   +---faxapp
+.       +---dao
+.       +---entity
+.       +---util
+.       +---web
++---war
+    +---images
+    +---js
+    +---META-INF
+    +---styles
+    +---WEB-INF
+        +---classes
+        +---jsp
+        +---lib
+		
++++
